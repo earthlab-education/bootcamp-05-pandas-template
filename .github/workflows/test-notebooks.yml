@@ -1,4 +1,4 @@
-name: Run Notebooks on Mac
+name: Run Notebooks
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
 
 jobs:
   runtests:
-    name: conda macos-latest
-    runs-on: macos-latest
+    name: conda ubuntu-latest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
     defaults:
