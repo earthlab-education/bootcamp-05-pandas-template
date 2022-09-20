@@ -14,4 +14,4 @@ dependencies:
 
   # Jupyter Environment
   - papermill
-  - flake8_nb
+  - flake8-nb
